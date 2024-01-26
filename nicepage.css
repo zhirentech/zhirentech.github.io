@@ -43345,31 +43345,23 @@ a.u-link.u-text-hover-grey-90:hover {
   width: 100%;
   height: 100%;
 }
-
-.u-header .u-menu-1 {
-  margin: -32px 0 22px auto;
-}
-
-.u-header .u-nav-1 {
-  font-size: 1rem;
-  letter-spacing: normal;
-}
-
-.u-header .u-nav-2 {
-  font-size: 1.25rem;
-}
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
     width: 96px;
   }
-
-  .u-header .u-menu-1 {
-    width: auto;
-  }
 }
 
 
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 63px;
+  }
 
+  .u-header .u-image-1 {
+    width: 61px;
+    height: 41px;
+  }
+}
  .u-footer {
   background-image: none;
 }
